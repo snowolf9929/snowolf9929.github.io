@@ -4,7 +4,7 @@
   <title><![CDATA[Ryan's Blog]]></title>
   <link href="http://snowolf9929.github.io/atom.xml" rel="self"/>
   <link href="http://snowolf9929.github.io/"/>
-  <updated>2014-10-09T19:27:08+08:00</updated>
+  <updated>2014-10-09T19:37:30+08:00</updated>
   <id>http://snowolf9929.github.io/</id>
   <author>
     <name><![CDATA[Ryan Yao]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://snowolf9929.github.io/blog/2014/10/09/hello-world/"/>
+    <updated>2014-10-09T19:36:46+08:00</updated>
+    <id>http://snowolf9929.github.io/blog/2014/10/09/hello-world</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
