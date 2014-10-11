@@ -3,22 +3,28 @@
   
   
   <url>
-    <loc>http://snowolf9929.github.io/blog/2014/10/09/hello-world/</loc>
-    <lastmod>2014-10-09T19:36:46+08:00</lastmod>
+    <loc>http://snowolf9929.github.io/blog/2014/10/11/new-blog/</loc>
+    <lastmod>2014-10-11T20:42:10+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://snowolf9929.github.io/blog/2014/10/11/hello-world/</loc>
+    <lastmod>2014-10-11T20:42:10+08:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   
   <url>
     <loc>http://snowolf9929.github.io/blog/archives/</loc>
-    <lastmod>2014-10-09T20:43:57+08:00</lastmod>
+    <lastmod>2014-10-11T20:44:08+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://snowolf9929.github.io/</loc>
-    <lastmod>2014-10-09T20:43:57+08:00</lastmod>
+    <lastmod>2014-10-11T20:44:08+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

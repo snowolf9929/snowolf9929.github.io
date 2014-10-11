@@ -4,7 +4,7 @@
   <title><![CDATA[Ryan's Blog]]></title>
   <link href="http://snowolf9929.github.io/atom.xml" rel="self"/>
   <link href="http://snowolf9929.github.io/"/>
-  <updated>2014-10-09T20:43:57+08:00</updated>
+  <updated>2014-10-11T20:44:08+08:00</updated>
   <id>http://snowolf9929.github.io/</id>
   <author>
     <name><![CDATA[Ryan Yao]]></name>
@@ -14,11 +14,346 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://snowolf9929.github.io/blog/2014/10/09/hello-world/"/>
-    <updated>2014-10-09T19:36:46+08:00</updated>
-    <id>http://snowolf9929.github.io/blog/2014/10/09/hello-world</id>
+    <title type="html"><![CDATA[new blog]]></title>
+    <link href="http://snowolf9929.github.io/blog/2014/10/11/new-blog/"/>
+    <updated>2014-10-11T20:42:10+08:00</updated>
+    <id>http://snowolf9929.github.io/blog/2014/10/11/new-blog</id>
     <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mon使用帮助（中文翻译）]]></title>
+    <link href="http://snowolf9929.github.io/blog/2014/10/11/hello-world/"/>
+    <updated>2014-10-11T20:42:10+08:00</updated>
+    <id>http://snowolf9929.github.io/blog/2014/10/11/hello-world</id>
+    <content type="html"><![CDATA[<p>初次使用<code>Octopress</code>写blog，首先就要找个<code>Markdown</code>的编辑器才能开始干活。
+在网上搜到<code>Mou</code>这个工具，第一印象很不错，也懒得比较其他的工具了，就用它了。</p>
+
+<p>第一次运行，打开编辑器，里面默认内容就是<code>Markdown</code>的语法介绍和<code>Mon</code>的使用帮助。
+正好借助这个学习一番，顺手将文档简单翻译了一下，作为这里的第一篇blog😄</p>
+
+<h1>Mou</h1>
+
+<p><img src="http://mouapp.com/Mou_128.png" alt="Mou icon" /></p>
+
+<h2>概述</h2>
+
+<p><strong>Mou</strong>，web开发人员不可少的Markdown编辑器。</p>
+
+<h3>语法</h3>
+
+<h4>粗体 和 斜体</h4>
+
+<p>**strong** 或 __strong__ ( Cmd + B )</p>
+
+<p>*emphasize* 或 _emphasize_ ( Cmd + I )</p>
+
+<p><strong>有时，我想让一段文字加粗
+像这样，一<em>长段</em>文字
+(注：演示斜体和粗体可以嵌套)</strong></p>
+
+<h3>嵌套引用</h3>
+
+<blockquote><p>右尖括号 &gt; 用来表示嵌套引用</p></blockquote>
+
+<h3>链接和邮件</h3>
+
+<p>一个邮件<a href="&#x6d;&#97;&#105;&#x6c;&#x74;&#111;&#x3a;&#x65;&#x78;&#x61;&#109;&#x70;&#x6c;&#101;&#x40;&#101;&#x78;&#x61;&#109;&#x70;&#x6c;&#101;&#x2e;&#x63;&#111;&#109;">&#101;&#x78;&#x61;&#109;&#112;&#108;&#x65;&#64;&#x65;&#120;&#97;&#109;&#x70;&#x6c;&#101;&#46;&#x63;&#x6f;&#109;</a>链接</p>
+
+<p>一般内嵌链接 <a href="http://chenluois.com">http://chenluois.com</a>, 另一种内嵌链接 <a href="http://smallerapp.com">Smaller</a>, 带title的内嵌链接 <a href="http://resizesafari.com" title="a Safari extension">Resize</a>。</p>
+
+<p>一个<a href="http://mouapp.com" title="Markdown editor on Mac OS X">引用样式</a> 链接. 在文档的任何地方申明一个id, 就可以定义与id相对应的连接:</p>
+
+<p>title在链接定义中是一个可选项。</p>
+
+<h3>图片</h3>
+
+<p>内嵌图片 <img src="http://smallerapp.com/favicon.ico" title="Title here" alt="Smaller icon" />, title是可选.</p>
+
+<p>一种 <img src="http://25.io/favicon.ico" title="Title" alt="Resize icon" /> 引用样式内嵌图片.</p>
+
+<h4>内嵌代码和代码块</h4>
+
+<p>内嵌代码用<code>反引号</code>括起来. 创建一个代码块:</p>
+
+<pre><code>每行缩进至少一个tab或4个空格.
+var Mou = exactlyTheAppIwant; 
+</code></pre>
+
+<h4>有序列表</h4>
+
+<p>创建一个有序列表使用 &ldquo;1.&rdquo; + 空格:</p>
+
+<ol>
+<li>Ordered list item</li>
+<li>Ordered list item</li>
+<li>Ordered list item</li>
+</ol>
+
+
+<h4>无序列表</h4>
+
+<p>创建一个无序里列表 &ldquo;*&rdquo; + 空格:</p>
+
+<ul>
+<li>Unordered list item</li>
+<li>Unordered list item</li>
+<li>Unordered list item</li>
+</ul>
+
+
+<p>或使用 &ldquo;&ndash;&rdquo; + 空格:</p>
+
+<ul>
+<li>Unordered list item</li>
+<li>Unordered list item</li>
+<li>Unordered list item</li>
+</ul>
+
+
+<h4>硬回车</h4>
+
+<p>End a line with two or more spaces will create a hard linebreak, called <code>&lt;br /&gt;</code> in HTML. ( Control + Return )<br/>
+Above line ended with 2 spaces.</p>
+
+<h4>水平线</h4>
+
+<p>三个或以上星号或破折号:</p>
+
+<hr />
+
+<hr />
+
+<hr />
+
+<h4>标题</h4>
+
+<p>Setext-style:</p>
+
+<h1>This is H1</h1>
+
+<h2>This is H2</h2>
+
+<p>atx-style:</p>
+
+<h1>This is H1</h1>
+
+<h2>This is H2</h2>
+
+<h3>This is H3</h3>
+
+<h4>This is H4</h4>
+
+<h5>This is H5</h5>
+
+<h6>This is H6</h6>
+
+<h3>扩展语法</h3>
+
+<h4>脚注</h4>
+
+<p>Footnotes work mostly like reference-style links. A footnote is made of two things: a marker in the text that will become a superscript number; a footnote definition that will be placed in a list of footnotes at the end of the document. A footnote looks like this:</p>
+
+<p>That&rsquo;s some text with a footnote.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<h4>删除线</h4>
+
+<p>前后各用2个波浪线符号:</p>
+
+<p><del>Strikethrough</del></p>
+
+<h4>多行代码块</h4>
+
+<p>Start with a line containing 3 or more backticks, and ends with the first line with the same number of backticks:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Fenced code blocks are like Stardard Markdown’s regular code
+</span><span class='line'>blocks, except that they’re not indented and instead rely on
+</span><span class='line'>a start and end fence lines to delimit the code block.</span></code></pre></td></tr></table></div></figure>
+
+
+<h4>表格</h4>
+
+<p>A simple table looks like this:</p>
+
+<table>
+<thead>
+<tr>
+<th>First Header </th>
+<th> Second Header </th>
+<th> Third Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell </td>
+<td> Content Cell  </td>
+<td> Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell </td>
+<td> Content Cell  </td>
+<td> Content Cell</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>If you wish, you can add a leading and tailing pipe to each line of the table:</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th> First Header </th>
+<th> Second Header </th>
+<th> Third Header </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td> Content Cell </td>
+<td> Content Cell  </td>
+<td> Content Cell |</td>
+</tr>
+<tr>
+<td></td>
+<td> Content Cell </td>
+<td> Content Cell  </td>
+<td> Content Cell |</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>Specify alignement for each column by adding colons to separator lines:</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">First Header </th>
+<th align="center"> Second Header </th>
+<th align="right"> Third Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Left         </td>
+<td align="center"> Center        </td>
+<td align="right"> Right</td>
+</tr>
+<tr>
+<td align="left">Left         </td>
+<td align="center"> Center        </td>
+<td align="right"> Right</td>
+</tr>
+</tbody>
+</table>
+
+
+<h3>快捷键</h3>
+
+<h4>视图</h4>
+
+<ul>
+<li>预览开关: Shift + Cmd + I</li>
+<li>字数统计开关: Shift + Cmd + W</li>
+<li>背景透明开关: Shift + Cmd + T</li>
+<li>浮动开关: Shift + Cmd + F</li>
+<li>左/右 = 1/1: Cmd + 0</li>
+<li>左/右 = 3/1: Cmd + +</li>
+<li>左/右 = 1/3: Cmd + &ndash;</li>
+<li>书写方向切换: Cmd + L</li>
+<li>全屏: Control + Cmd + F</li>
+</ul>
+
+
+<h4>命令</h4>
+
+<ul>
+<li>拷贝 HTML: Option + Cmd + C</li>
+<li>粗体: 选择文本, Cmd + B</li>
+<li>斜体: 选择文本, Cmd + I</li>
+<li>内嵌代码: Select text, Cmd + K</li>
+<li>删除线: Select text, Cmd + U</li>
+<li>链接: Select text, Control + Shift + L</li>
+<li>图片: Select text, Control + Shift + I</li>
+<li>选中单词: Control + Option + W</li>
+<li>选中一行: Shift + Cmd + L</li>
+<li>全选: Cmd + A</li>
+<li>取消全选: Cmd + D</li>
+<li>转换大写: Select text, Control + U</li>
+<li>转换小写: Select text, Control + Shift + U</li>
+<li>转换首字母大写: Select text, Control + Option + U</li>
+<li>转换列表: Select lines, Control + L</li>
+<li>转换块引用: Select lines, Control + Q</li>
+<li>转换 H1: Cmd + 1</li>
+<li>转换 H2: Cmd + 2</li>
+<li>转换 H3: Cmd + 3</li>
+<li>转换 H4: Cmd + 4</li>
+<li>转换 H5: Cmd + 5</li>
+<li>转换 H6: Cmd + 6</li>
+<li>Convert Spaces to Tabs: Control + [</li>
+<li>Convert Tabs to Spaces: Control + ]</li>
+<li>插入日期: Control + Shift + 1</li>
+<li>插入时间: Control + Shift + 2</li>
+<li>插入 &lt;: Control + Shift + ,</li>
+<li>插入 >: Control + Shift + .</li>
+<li>插入 &amp;: Control + Shift + 7</li>
+<li>插入 Space: Control + Shift + Space</li>
+<li>插入 Scriptogr.am 头: Control + Shift + G</li>
+<li>Shift Line Left: Select lines, Cmd + [</li>
+<li>Shift Line Right: Select lines, Cmd + ]</li>
+<li>新行: Cmd + Return</li>
+<li>注释: Cmd + /</li>
+<li>硬回车: Control + Return</li>
+</ul>
+
+
+<h4>编辑</h4>
+
+<ul>
+<li>自动完成: Esc</li>
+<li>查找: Cmd + F</li>
+<li>关闭查找: Esc</li>
+</ul>
+
+
+<h4>提交</h4>
+
+<ul>
+<li>提交到 Scriptogr.am: Control + Shift + S</li>
+<li>提交到 Tumblr: Control + Shift + T</li>
+</ul>
+
+
+<h4>导出</h4>
+
+<ul>
+<li>导出 HTML: Option + Cmd + E</li>
+<li>导出 PDF:  Option + Cmd + P</li>
+</ul>
+
+
+<h3>更多?</h3>
+
+<p>更多设置项参见 Preferences。</p>
+
+<p>Follow <a href="http://twitter.com/chenluois">@chenluois</a> on Twitter for the latest news.</p>
+
+<p>反馈, 使用菜单 <code>Help</code> &ndash; <code>Send Feedback</code></p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>这就是那个脚注.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
 ]]></content>
   </entry>
   
