@@ -4,7 +4,7 @@
   <title><![CDATA[Ryan's Blog]]></title>
   <link href="http://snowolf9929.github.io/atom.xml" rel="self"/>
   <link href="http://snowolf9929.github.io/"/>
-  <updated>2014-11-18T18:37:01+08:00</updated>
+  <updated>2014-11-18T19:16:08+08:00</updated>
   <id>http://snowolf9929.github.io/</id>
   <author>
     <name><![CDATA[Ryan Yao]]></name>
@@ -39,7 +39,7 @@
     <id>http://snowolf9929.github.io/blog/2014/10/31/design-pattern-samples-in-java-fan-yi</id>
     <content type="html"><![CDATA[<h1>设计模式JAVA实例.</h1>
 
-<p>来源：[<a href="https://github.com/iluwatar/java-design-patterns/blob/master/README.md">https://github.com/iluwatar/java-design-patterns/blob/master/README.md</a>]</p>
+<p>来源：[<a href="https://github.com/iluwatar/java-design-patterns/raw/master/README.md">https://github.com/iluwatar/java-design-patterns/raw/master/README.md</a>]</p>
 
 <h2>Build status:</h2>
 
@@ -49,7 +49,7 @@
 
 <p><strong>Intent:</strong> Provide an interface for creating families of related or dependent objects without specifying their concrete classes.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/abstract-factory/etc/abstract-factory.jpg" title="Abstract Factory" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/abstract-factory/etc/abstract-factory_1.png" title="Abstract Factory" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Abstract Factory pattern when
 * a system should be independent of how its products are created, composed and represented
@@ -61,7 +61,7 @@
 
 <p><strong>Intent:</strong> Separate the construction of a complex object from its representation so that the same construction process can create different representations.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/builder/etc/builder.jpg" title="Builder" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/builder/etc/builder_1.png" title="Builder" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Builder pattern when
 * the algorithm for creating a complex object should be independent of the parts that make up the object and how they&rsquo;re assembled
@@ -71,7 +71,7 @@
 
 <p><strong>Intent:</strong> Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/factory-method/etc/factory-method.jpg" title="Factory Method" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/factory-method/etc/factory-method_1.png" title="Factory Method" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Factory Method pattern when
 * a class can&rsquo;t anticipate the class of objects it must create
@@ -82,7 +82,7 @@
 
 <p><strong>Intent:</strong> Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/prototype/etc/prototype.jpg" title="Prototype" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/prototype/etc/prototype_1.png" title="Prototype" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Prototype pattern when a system should be independent of how its products are created, composed and represented; and
 * when the classes to instantiate are specified at run-time, for example, by dynamic loading; or
@@ -93,17 +93,22 @@
 
 <p><strong>Intent:</strong> Ensure a class only has one instance, and provide a global point of access to it.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/singleton/etc/singleton.jpg" title="Singleton" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/singleton/etc/singleton_1.png" title="Singleton" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Singleton pattern when
 * the must be exactly one instance of a class, and it must be accessible to clients from a well-known access point
 * when the sole instance should be extensible by subclassing, and clients should be able to use an extended instance without modifying their code</p>
 
+<p><strong>Typical Use Case:</strong>
+* the logging class
+* managing a connection to a database
+* file manager</p>
+
 <h2>Adapter</h2>
 
 <p><strong>Intent:</strong> Convert the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn&rsquo;t otherwise because of incompatible interfaces.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/adapter/etc/adapter.jpg" title="Adapter" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/adapter/etc/adapter_1.png" title="Adapter" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Adapter pattern when
 * you want to use an existing class, and its interface does not match the one you need
@@ -114,7 +119,7 @@
 
 <p><strong>Intent:</strong> Decouple an abstraction from its implementation so that the two can vary independently.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/bridge/etc/bridge.jpg" title="Bridge" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/bridge/etc/bridge_1.png" title="Bridge" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Bridge pattern when
 * you want to avoid a permanent binding between an abstraction and its implementation. This might be the case, for example, when the implementation must be selected or switched at run-time.
@@ -127,7 +132,7 @@
 
 <p><strong>Intent:</strong> Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/composite/etc/composite.jpg" title="Composite" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/composite/etc/composite_1.png" title="Composite" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Composite pattern when
 * you want to represent part-whole hierarchies of objects
@@ -137,7 +142,7 @@
 
 <p><strong>Intent:</strong> Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/decorator/etc/decorator.jpg" title="Decorator" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/decorator/etc/decorator_1.png" title="Decorator" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use Decorator
 * to add responsibilities to individual objects dynamically and transparently, that is, without affecting other objects
@@ -148,7 +153,7 @@
 
 <p><strong>Intent:</strong> Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/facade/etc/facade.jpg" title="Facade" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/facade/etc/facade_1.png" title="Facade" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Facade pattern when
 * you want to provide a simple interface to a complex subsystem. Subsystems often get more complex  as they evolve. Most patterns, when applied, result in more and smaller classes. This makes the subsystem more reusable and easier to customize, but is also becomes harder to use for clients that don&rsquo;t need to customize it. A facade can provide a simple default view of the subsystem that is good enough for most clients. Only clients needing more customizability will need to look beyond the facade.
@@ -159,7 +164,7 @@
 
 <p><strong>Intent:</strong> Use sharing to support large numbers of fine-grained objects efficiently.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/flyweight/etc/flyweight.jpg" title="Flyweight" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/flyweight/etc/flyweight_1.png" title="Flyweight" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> The Flyweight pattern&rsquo;s effectiveness depends heavily on how and where it&rsquo;s used. Apply the Flyweight pattern when all of the following are true
 * an application uses a large number of objects
@@ -172,18 +177,33 @@
 
 <p><strong>Intent:</strong> Provide a surrogate or placeholder for another object to control access to it.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/proxy/etc/proxy.jpg" title="Proxy" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/proxy/etc/proxy_1.png" title="Proxy" alt="alt text" /></p>
 
-<p><strong>Applicability:</strong> Proxy is applicable whenever there is a need for a more versatile or sophisticated reference to an object than a simple pointer. here are several common situations in which the Proxy pattern is applicable
-* a remote proxy provides a local representative for an object in a different address space.
-* a virtual proxy creates expensive objects on demand.
-* a protection proxy controls access to the original object. Protection proxies are useful when objects should have different access rights.</p>
+<p><strong>Applicability:</strong> Proxy is applicable whenever there is a need for a more versatile or sophisticated reference to an object than a simple pointer. here are several common situations in which the Proxy pattern is applicable</p>
+
+<ul>
+<li>a remote proxy provides a local representative for an object in a different address space.</li>
+<li>a virtual proxy creates expensive objects on demand.</li>
+<li>a protection proxy controls access to the original object. Protection proxies are useful when objects should have different access rights.</li>
+</ul>
+
+
+<p><strong>Typical Use Case:</strong></p>
+
+<ul>
+<li>Control access to another object</li>
+<li>Lazy initialization</li>
+<li>implement logging</li>
+<li>facilitate network connection</li>
+<li>to count references to an object</li>
+</ul>
+
 
 <h2>Chain of responsibility</h2>
 
 <p><strong>Intent:</strong> Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/chain/etc/chain.jpg" title="Chain of Responsibility" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/chain/etc/chain_1.png" title="Chain of Responsibility" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use Chain of Responsibility when
 * more than one object may handle a request, and the handler isn&rsquo;t known a priori. The handler should be ascertained automatically
@@ -194,20 +214,33 @@
 
 <p><strong>Intent:</strong> Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/command/etc/command.jpg" title="Command" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/command/etc/command_1.png" title="Command" alt="alt text" /></p>
 
-<p><strong>Applicability:</strong> Use the Command pattern when you want to
-* parameterize objects by an action to perform. You can express such parameterization in a procedural language with a callback function, that is, a function that&rsquo;s registered somewhere to be called at a later point. Commands are an object-oriented replacement for callbacks.
-* specify, queue, and execute requests at different times. A Command object can have a lifetime independent of the original request. If the receiver of a request can be represented in an address space-independent way, then you can transfer a command object for the request to a different process and fulfill the request there
-* support undo. The Command&rsquo;s execute operation can store state for reversing its effects in the command itself. The Command interface must have an added Unexecute operation that reverses the effects of a previous call to execute. Executed commands are stored in a history list. Unlimited-level undo and redo is achieved by traversing this list backwards and forwards calling unexecute and execute, respectively
-* support logging changes so that they can be reapplied in case of a system crash. By augmenting the Command interface with load and store operations, you can keep a persistent log of changes. Recovering from a crash involves reloading logged commands from disk and re-executing them with the execute operation
-* structure a system around high-level operations build on primitive operations. Such a structure is common in information systems that support transactions. A transaction encapsulates a set of changes to data. The Command pattern offers a way to model transactions. Commands have a common interface, letting you invoke all transactions the same way. The pattern also makes it easy to extend the system with new transactions</p>
+<p><strong>Applicability:</strong> Use the Command pattern when you want to</p>
+
+<ul>
+<li>parameterize objects by an action to perform. You can express such parameterization in a procedural language with a callback function, that is, a function that&rsquo;s registered somewhere to be called at a later point. Commands are an object-oriented replacement for callbacks.</li>
+<li>specify, queue, and execute requests at different times. A Command object can have a lifetime independent of the original request. If the receiver of a request can be represented in an address space-independent way, then you can transfer a command object for the request to a different process and fulfill the request there</li>
+<li>support undo. The Command&rsquo;s execute operation can store state for reversing its effects in the command itself. The Command interface must have an added Unexecute operation that reverses the effects of a previous call to execute. Executed commands are stored in a history list. Unlimited-level undo and redo is achieved by traversing this list backwards and forwards calling unexecute and execute, respectively</li>
+<li>support logging changes so that they can be reapplied in case of a system crash. By augmenting the Command interface with load and store operations, you can keep a persistent log of changes. Recovering from a crash involves reloading logged commands from disk and re-executing them with the execute operation</li>
+<li>structure a system around high-level operations build on primitive operations. Such a structure is common in information systems that support transactions. A transaction encapsulates a set of changes to data. The Command pattern offers a way to model transactions. Commands have a common interface, letting you invoke all transactions the same way. The pattern also makes it easy to extend the system with new transactions</li>
+</ul>
+
+
+<p><strong>Typical Use Case:</strong></p>
+
+<ul>
+<li>to keep a history of requests</li>
+<li>implement callback functionality</li>
+<li>implement the undo functionality</li>
+</ul>
+
 
 <h2>Interpreter</h2>
 
 <p><strong>Intent:</strong> Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/interpreter/etc/interpreter.jpg" title="Interpreter" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/interpreter/etc/interpreter_1.png" title="Interpreter" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Interpreter pattern when there is a language to interpret, and you can represent statements in the language as abstract syntax trees. The Interpreter pattern works best when
 * the grammar is simple. For complex grammars, the class hierarchy for the grammar becomes large and unmanageable. Tools such as parser generators are a better alternative in such cases. They can interpret expressions without building abstract syntax trees, which can save space and possibly time
@@ -217,7 +250,7 @@
 
 <p><strong>Intent:</strong> Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/iterator/etc/iterator.jpg" title="Iterator" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/iterator/etc/iterator_1.png" title="Iterator" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Iterator pattern
 * to access an aggregate object&rsquo;s contents without exposing its internal representation
@@ -228,7 +261,7 @@
 
 <p><strong>Intent:</strong> Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/mediator/etc/mediator.jpg" title="Mediator" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/mediator/etc/mediator_1.png" title="Mediator" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Mediator pattern when
 * a set of objects communicate in well-defined but complex ways. The resulting interdependencies are unstructured and difficult to understand
@@ -239,7 +272,7 @@
 
 <p><strong>Intent:</strong> Without violating encapsulation, capture and externalize an object&rsquo;s internal state so that the object can be restored to this state later.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/memento/etc/memento.jpg" title="Memento" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/memento/etc/memento_1.png" title="Memento" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Memento pattern when
 * a snapshot of an object&rsquo;s state must be saved so that it can be restored to that state later, and
@@ -249,7 +282,7 @@
 
 <p><strong>Intent:</strong> Apply a &ldquo;Separation of Concerns&rdquo; principle in a way that allows developers to build and test user interfaces.</p>
 
-<p><img src="https://github.com/pitsios-s/java-design-patterns/blob/master/model-view-presenter/etc/model-view-presenter.jpg" title="Model-View-Presenter" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/model-view-presenter/etc/model-view-presenter_1.png" title="Model-View-Presenter" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Model-View-Presenter in any of the following situations
 * when you want to improve the &ldquo;Separation of Concerns&rdquo; principle in presentation logic
@@ -259,18 +292,29 @@
 
 <p><strong>Intent:</strong> Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/observer/etc/observer.jpg" title="Observer" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/observer/etc/observer_1.png" title="Observer" alt="alt text" /></p>
 
-<p><strong>Applicability:</strong> Use the Observer pattern in any of the following situations
-* when an abstraction has two aspects, one dependent on the other. Encapsulating these aspects in separate objects lets you vary and reuse them independently
-* when a change to one object requires changing others, and you don&rsquo;t know how many objects need to be changed
-* when an object should be able to notify other objects without making assumptions about who these objects are. In other words, you don&rsquo;t want these objects tightly coupled</p>
+<p><strong>Applicability:</strong> Use the Observer pattern in any of the following situations</p>
+
+<ul>
+<li>when an abstraction has two aspects, one dependent on the other. Encapsulating these aspects in separate objects lets you vary and reuse them independently</li>
+<li>when a change to one object requires changing others, and you don&rsquo;t know how many objects need to be changed</li>
+<li>when an object should be able to notify other objects without making assumptions about who these objects are. In other words, you don&rsquo;t want these objects tightly coupled</li>
+</ul>
+
+
+<p><strong>Typical Use Case:</strong></p>
+
+<ul>
+<li>changing in one object leads to a change in other objects</li>
+</ul>
+
 
 <h2>State</h2>
 
 <p><strong>Intent:</strong> Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/state/etc/state.jpg" title="State" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/state/etc/state_1.png" title="State" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the State pattern in either of the following cases
 * an object&rsquo;s behavior depends on its state, and it must change its behavior at run-time depending on that state
@@ -280,7 +324,7 @@
 
 <p><strong>Intent:</strong> Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/strategy/etc/strategy.jpg" title="Strategy" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/strategy/etc/strategy_1.png" title="Strategy" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Strategy pattern when
 * many related classes differ only in their behavior. Stratefies provide a way to configure a class eith one of many behaviors
@@ -292,7 +336,7 @@
 
 <p><strong>Intent:</strong> Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm&rsquo;s structure.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/template-method/etc/template-method.jpg" title="Template Method" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/template-method/etc/template-method_1.png" title="Template Method" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> The Template Method pattern should be used
 * to implement the invariant parts of an algorithm once and leave it up to subclasses to implement the behavior that can vary
@@ -303,7 +347,7 @@
 
 <p><strong>Intent:</strong> Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.</p>
 
-<p><img src="https://github.com/iluwatar/java-design-patterns/blob/master/visitor/etc/visitor.jpg" title="Visitor" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/visitor/etc/visitor_1.png" title="Visitor" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Visitor pattern when
 * an object structure contains many classes of objects with differing interfaces, and you want to perform operations on these objects that depend on their concrete classes
@@ -314,7 +358,7 @@
 
 <p><strong>Intent:</strong> Reduce the overhead of acquiring a lock by first testing the locking criterion (the &ldquo;lock hint&rdquo;) without actually acquiring the lock. Only if the locking criterion check indicates that locking is required does the actual locking logic proceed.</p>
 
-<p><img src="https://github.com/yusufaytas/java-design-patterns/blob/master/double-checked-locking/etc/double_checked_locking.jpeg" title="Double Checked Locking" alt="alt text" /></p>
+<p><img src="https://github.com/iluwatar/java-design-patterns/raw/master/double-checked-locking/etc/double_checked_locking_1.png" title="Double Checked Locking" alt="alt text" /></p>
 
 <p><strong>Applicability:</strong> Use the Double Checked Locking pattern when
 * there is a concurrent access in object creation, e.g. singleton, where you want to create single instance of the same class and checking if it&rsquo;s null or not maybe not be enough when there are two or more threads that checks if instance is null or not.
@@ -336,26 +380,31 @@
 
 <h1>How to contribute</h1>
 
-<p>For a new pattern to be added you need to do the following steps:</p>
+<p><strong>To add a new pattern</strong> you need to do the following steps:</p>
 
 <ol>
 <li>Fork the repository.</li>
 <li>Implement the code changes in your fork. Remember to add sufficient comments documenting the implementation.</li>
-<li>Create a simple class diagram from your example code. I&rsquo;ve used <a href="https://www.genmymodel.com/">GenMyModel</a> and its &ldquo;Export as JPEG&rdquo; feature.</li>
+<li>Create a simple class diagram from your example code.</li>
 <li>Add description of the pattern in README.md and link to the class diagram.</li>
 <li>Create a pull request.</li>
 </ol>
 
 
-<p>If you want to edit the existing UML diagrams I can easily add you as an editor to the corresponding GenMyModel-project. Just drop me an email mentioning the pattern you are editing.</p>
+<p><strong>To edit the existing UML diagrams</strong> you need one of the following:
+&ndash; <a href="http://genmymodel.com/">GenMyModel</a>
+&ndash; <a href="http://www.objectaid.com/home">ObjectAid UML Explorer for Eclipse</a></p>
 
-<p>There is a good list of design patterns at <a href="http://en.wikipedia.org/wiki/Software_design_pattern">Wikipedia</a>.</p>
+<p><strong>For inspiration</strong> there is a good list of design patterns at <a href="http://en.wikipedia.org/wiki/Software_design_pattern">Wikipedia</a>.</p>
+
+<p><strong>Links to patterns applied in real world applications</strong> are welcome. The links should be added to the corresponding section of the <code>README.md</code>.</p>
 
 <h1>Credits</h1>
 
 <ul>
 <li><a href="http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612">Design Patterns: Elements of Reusable Object-Oriented Software</a></li>
 <li><a href="http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683">Effective Java (2nd Edition)</a></li>
+<li><a href="http://www.amazon.com/Java-Generics-Collections-Maurice-Naftalin/dp/0596527756/">Java Generics and Collections</a></li>
 </ul>
 
 
@@ -402,7 +451,7 @@
 
 <h3>链接和邮件</h3>
 
-<p>一个邮件<a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#58;&#x65;&#x78;&#97;&#109;&#x70;&#108;&#101;&#64;&#101;&#120;&#97;&#x6d;&#112;&#x6c;&#101;&#46;&#99;&#111;&#109;">&#101;&#120;&#97;&#x6d;&#112;&#x6c;&#101;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#108;&#x65;&#x2e;&#x63;&#111;&#x6d;</a>链接</p>
+<p>一个邮件<a href="&#x6d;&#97;&#105;&#x6c;&#x74;&#x6f;&#x3a;&#x65;&#x78;&#97;&#x6d;&#x70;&#108;&#x65;&#x40;&#101;&#120;&#x61;&#109;&#x70;&#x6c;&#101;&#46;&#99;&#x6f;&#x6d;">&#101;&#120;&#x61;&#x6d;&#112;&#108;&#x65;&#64;&#101;&#x78;&#x61;&#x6d;&#112;&#108;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a>链接</p>
 
 <p>一般内嵌链接 <a href="http://chenluois.com">http://chenluois.com</a>, 另一种内嵌链接 <a href="http://smallerapp.com">Smaller</a>, 带title的内嵌链接 <a href="http://resizesafari.com" title="a Safari extension">Resize</a>。</p>
 
