@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Android | Ryan's Blog]]></title>
+  <link href="http://snowolf9929.github.io/blog/categories/android/atom.xml" rel="self"/>
+  <link href="http://snowolf9929.github.io/"/>
+  <updated>2014-11-18T18:37:01+08:00</updated>
+  <id>http://snowolf9929.github.io/</id>
+  <author>
+    <name><![CDATA[Ryan Yao]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[ADT Bundle 23 Missing ANT]]></title>
+    <link href="http://snowolf9929.github.io/blog/2014/11/18/adt-bundle-23-missing-ant/"/>
+    <updated>2014-11-18T18:28:43+08:00</updated>
+    <id>http://snowolf9929.github.io/blog/2014/11/18/adt-bundle-23-missing-ant</id>
+    <content type="html"><![CDATA[<p>ADT Bundle在版本23后默认木有了ant插件，找回来的方法：</p>
+
+<ol>
+<li>Help &ndash;> Install New SoftWare</li>
+<li>Work With &ndash;> &ldquo;<a href="http://download.eclipse.org/releases/juno">http://download.eclipse.org/releases/juno</a>&rdquo;</li>
+<li>Drop down list &ldquo;General Purpose Tools&rdquo;</li>
+<li>select &ldquo;Eclipse Plug-in Development Environment&rdquo;</li>
+</ol>
+
+
+<p>安装完重启后就回来了。</p>
+]]></content>
+  </entry>
+  
+</feed>
